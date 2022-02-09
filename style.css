@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#container {
+    height: 10%;
+    background: linear-gradient(
+        to left bottom,
+        rgb(98, 56, 171),
+        rgb(169, 132, 233)
+    );
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+#info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#map {
+    height: 90%;
+}
